@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TagMind — Automated Repository Triage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased selection:bg-gray-200">
+
+    <header class="border-b border-gray-200 bg-white sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <img src="https://avatars.githubusercontent.com/ml/28468?s=400&v=4" alt="TagMind Logo" class="w-8 h-8 rounded-lg object-cover">
+                <span class="font-semibold tracking-tight text-lg">TagMind</span>
+            </div>
+            <nav class="flex items-center space-x-6">
+                <a href="#features" class="text-sm text-gray-600 hover:text-gray-900 transition">Features</a>
+                <a href="privacy.html" class="text-sm text-gray-600 hover:text-gray-900 transition">Privacy</a>
+                <a href="support.html" class="text-sm text-gray-600 hover:text-gray-900 transition">Support</a>
+                <a href="https://github.com/marketplace/tagmind" target="_blank" class="bg-gray-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-800 transition">Install App</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-5xl mx-auto px-6 pt-16 pb-24 text-center">
+            <div class="flex justify-center mb-6">
+                <img src="https://avatars.githubusercontent.com/ml/28468?s=400&v=4" alt="TagMind Logo" class="w-20 h-20 rounded-2xl shadow-sm border border-gray-100 object-cover">
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 max-w-2xl mx-auto leading-tight">
+                Automated repository triage, powered by serverless tech.
+            </h1>
+            <p class="mt-6 text-lg text-gray-600 max-w-xl mx-auto leading-relaxed">
+                Stop sorting tickets manually. TagMind parses intent instantly to inject clean taxonomy directly into your open-source workflow at zero cost.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://github.com/marketplace/tagmind" target="_blank" class="w-full sm:w-auto bg-gray-900 text-white font-medium px-6 py-3 rounded-xl hover:bg-gray-800 transition flex items-center justify-center space-x-2 shadow-sm">
+                    <span>Add to GitHub</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <a href="#features" class="w-full sm:w-auto bg-white border border-gray-200 text-gray-700 font-medium px-6 py-3 rounded-xl hover:bg-gray-100 transition">
+                    Learn More
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="border-t border-gray-200 bg-white py-20">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="text-center max-w-xl mx-auto mb-16">
+                    <h2 class="text-2xl font-bold tracking-tight">Pre-Configured Automation</h2>
+                    <p class="text-gray-600 mt-2">Instantly maps standard incoming issues and PR structures to exact project taxonomy.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 border border-gray-200 rounded-2xl bg-gray-50/50">
+                        <div class="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center mb-4">
+                            <i data-lucide="alert-circle" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg text-gray-900">Bug Detection</h3>
+                        <p class="text-gray-600 text-sm mt-2 leading-relaxed">Catches keywords like crash, error, broken, fail, and unhandled to map the <code>bug</code> label instantly.</p>
+                    </div>
+
+                    <div class="p-6 border border-gray-200 rounded-2xl bg-gray-50/50">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                            <i data-lucide="sparkles" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg text-gray-900">Feature Requests</h3>
+                        <p class="text-gray-600 text-sm mt-2 leading-relaxed">Catches phrases like request, add support, enhance, and proposal to route tasks to <code>feature</code>.</p>
+                    </div>
+
+                    <div class="p-6 border border-gray-200 rounded-2xl bg-gray-50/50">
+                        <div class="w-10 h-10 rounded-xl bg-green-50 text-green-600 flex items-center justify-center mb-4">
+                            <i data-lucide="book-open" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg text-gray-900">Documentation</h3>
+                        <p class="text-gray-600 text-sm mt-2 leading-relaxed">Flags readme updates, typos, wikis, and contributing files directly to the <code>documentation</code> deck.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="security" class="border-t border-gray-200 bg-gray-50/30 py-20">
+            <div class="max-w-3xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl font-bold tracking-tight">Architecture & Data Privacy</h2>
+                    <p class="text-gray-600 mt-2">Minimalist construction built with privacy at its core infrastructure.</p>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4 bg-white p-5 border border-gray-100 rounded-xl">
+                        <div class="mt-1 text-gray-700 bg-gray-100 p-2 rounded-lg">
+                            <i data-lucide="zap" class="w-4 h-4"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Serverless Edge Processing</h4>
+                            <p class="text-sm text-gray-600 mt-1">Runs inside localized edge environments to process incoming webhooks within milliseconds without latency overhead.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 bg-white p-5 border border-gray-100 rounded-xl">
+                        <div class="mt-1 text-gray-700 bg-gray-100 p-2 rounded-lg">
+                            <i data-lucide="shield" class="w-4 h-4"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Stateless System Protocol</h4>
+                            <p class="text-sm text-gray-600 mt-1">Operates purely in-memory. Your raw codebase contents, issue descriptions, and profiles are processed on the fly and never stored inside a database.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 bg-white p-5 border border-gray-100 rounded-xl">
+                        <div class="mt-1 text-gray-700 bg-gray-100 p-2 rounded-lg">
+                            <i data-lucide="key" class="w-4 h-4"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900">Least Privilege Permissions</h4>
+                            <p class="text-sm text-gray-600 mt-1">Requests strict read and write permissions isolated purely to issue and pull request metadata. It explicitly has zero access to repository source files or secrets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white py-12">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500 gap-4">
+            <p>&copy; 2026 TagMind. Released as free community open-source tooling.</p>
+            <div class="flex space-x-6">
+                <a href="https://github.com/marketplace/tagmind" class="hover:text-gray-900 transition">GitHub Marketplace</a>
+                <a href="privacy.html" class="hover:text-gray-900 transition">Privacy</a>
+                <a href="support.html" class="hover:text-gray-900 transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
