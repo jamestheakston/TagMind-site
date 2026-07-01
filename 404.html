@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found — TagMind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased selection:bg-gray-200 min-h-screen flex flex-col justify-between">
+
+    <header class="border-b border-gray-200 bg-white sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3 hover:opacity-90 transition">
+                <img src="https://avatars.githubusercontent.com/ml/28468?s=400&v=4" alt="TagMind Logo" class="w-8 h-8 rounded-lg object-cover">
+                <span class="font-semibold tracking-tight text-lg">TagMind</span>
+            </a>
+            <nav class="flex items-center space-x-6">
+                <a href="index.html#features" class="text-sm text-gray-600 hover:text-gray-900 transition">Features</a>
+                <a href="privacy.html" class="text-sm text-gray-600 hover:text-gray-900 transition">Privacy</a>
+                <a href="support.html" class="text-sm text-gray-600 hover:text-gray-900 transition">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center py-20 px-6">
+        <div class="max-w-md w-full text-center">
+            <div class="inline-flex items-center justify-center space-x-2 bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-medium tracking-wide mb-6 border border-red-100">
+                <i data-lucide="alert-triangle" class="w-3.5 h-3.5"></i>
+                <span>Error 404</span>
+            </div>
+            
+            <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+                Missing Label
+            </h1>
+            
+            <p class="mt-4 text-base text-gray-600 leading-relaxed">
+                The pathway or index resource you are targeting could not be sorted. It may have been detached, moved, or completely untagged.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+                <a href="index.html" class="inline-flex items-center justify-center space-x-2 bg-gray-900 text-white font-medium px-5 py-2.5 rounded-xl hover:bg-gray-800 transition w-full sm:w-auto shadow-sm text-sm">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                    <span>Return Home</span>
+                </a>
+                <a href="support.html" class="inline-flex items-center justify-center bg-white border border-gray-200 text-gray-700 font-medium px-5 py-2.5 rounded-xl hover:bg-gray-100 transition w-full sm:w-auto text-sm">
+                    Contact Support
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white py-12">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500 gap-4">
+            <p>&copy; 2026 TagMind. Released as free community open-source tooling.</p>
+            <div class="flex space-x-6">
+                <a href="https://github.com/marketplace/tagmind" class="hover:text-gray-900 transition">GitHub Marketplace</a>
+                <a href="privacy.html" class="hover:text-gray-900 transition">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
