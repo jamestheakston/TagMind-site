@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — TagMind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased selection:bg-gray-200">
+
+    <header class="border-b border-gray-200 bg-white sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3 hover:opacity-90 transition">
+                <img src="https://avatars.githubusercontent.com/ml/28468?s=400&v=4" alt="TagMind Logo" class="w-8 h-8 rounded-lg object-cover">
+                <span class="font-semibold tracking-tight text-lg">TagMind</span>
+            </a>
+            <nav class="flex items-center space-x-6">
+                <a href="index.html#features" class="text-sm text-gray-600 hover:text-gray-900 transition">Features</a>
+                <a href="support.html" class="text-sm text-gray-600 hover:text-gray-900 transition">Support</a>
+                <a href="https://github.com/marketplace/tagmind" target="_blank" class="bg-gray-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-800 transition">Install App</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 mb-2">Privacy Policy</h1>
+        <p class="text-sm text-gray-500 mb-8">Last updated: July 2026</p>
+
+        <div class="space-y-8 text-gray-700 leading-relaxed">
+            <section>
+                <h2 class="text-xl font-bold text-gray-900 mb-3">1. Stateless Architecture</h2>
+                <p>TagMind is engineered as a stateless automation utility. We do not run persistent databases, user logging clusters, or cache systems. When a GitHub repository webhook delivers data to our serverless edge handlers, the raw event parameters are handled explicitly within ephemeral execution memory and instantly destroyed once processing wraps up.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-gray-900 mb-3">2. Data Processing & Isolation</h2>
+                <p>We process repository event details, issues, and pull request information solely to identify text markers and map relevant organizational tags. Your files, programmatic code contents, and confidential repository configurations are never viewed, extracted, compiled, or transmitted to external nodes.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-gray-900 mb-3">3. Least Privilege Authorization</h2>
+                <p>The application functions strictly under localized GitHub parameters requesting metadata read and write rights on issue structures and pull requests. TagMind explicitly holds zero administrative authority over authorization schemes, structural profiles, system keys, or primary file architectures.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-gray-900 mb-3">4. Third-Party Integrations</h2>
+                <p>No consumer usage patterns, text entries, tracking configurations, or client statistics are transferred to outside services, analytics firms, or marketing networks. All communication pipelines stay encapsulated purely between your environment, our serverless execution edge, and GitHub's core secure infrastructure portals.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-gray-900 mb-3">5. Inquiries</h2>
+                <p>For explicit clarifying points regarding this transparency setup or structural pipeline rules, connect with technical support directly through our communications desk at <a href="mailto:jamesttheakston2@gmail.com" class="text-gray-900 underline underline-offset-4 font-medium hover:text-gray-600 transition">jamesttheakston2@gmail.com</a>.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white py-12">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500 gap-4">
+            <p>&copy; 2026 TagMind. Released as free community open-source tooling.</p>
+            <div class="flex space-x-6">
+                <a href="https://github.com/marketplace/tagmind" class="hover:text-gray-900 transition">GitHub Marketplace</a>
+                <a href="support.html" class="hover:text-gray-900 transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
